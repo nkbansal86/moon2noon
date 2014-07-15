@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Contact - Snacks Website Template</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<?php
+	include 'header.php';
+	?>
+	<div id="body">
+		<div id="contact">
+			<h1>This is just a place holder, so you can see what the site would look like.</h1>
+			<div>
+				<div class="section">
+					<p>
+						This website template hahs been designed by <a href="http://www.freewebsitetemplates.com/">Free Website Templates</a> for you, for free. You can replace all this text with your own text. You can remove any link to our website from this website template, you're free to use this website template without linking back to us. If you're having problems editing this website template, then don't hesitate to ask for help on the <a href="http://www.freewebsitetemplates.com/forums/">Forum</a>.
+					</p>
+					<ul>
+						<li>
+							<span>location</span> This is just a place holder, so you can see what the site would look like.
+						</li>
+						<li>
+							<span>Email</span> <a href="http://www.freewebsitetemplates.com/misc/contact">freewebsitemplates.com</a>
+						</li>
+						<li>
+							<span>call</span> 987 654 3210; 765 432 1098; 210 987 6543
+						</li>
+						<li>
+							<span>store hours</span> This is just a place holder, so you can see what the site would look like.
+						</li>
+					</ul>
+				</div>
+				<div class="figure">
+					<div>
+						<img src="images/waitress.jpg" alt="">
+						<p>
+							This is just a place holder, so you can see what the site would look like.	 This is just a place holder, so you can see what the site would look like.	This is just a place holder.
+						</p>
+					</div>
+				</div>
+			</div>
+			<form action="contact.html">
+				<span>send a message</span>
+				<div class="information">
+					<label for="name">your name:</label>
+					<input type="text" name="name" id="name">
+					<label for="email">email address:</label>
+					<input type="text" name="email" id="email">
+					<label for="subject">subject:</label>
+					<input type="text" name="subject" id="subject">
+				</div>
+				<div>
+					<label for="message">message:</label>
+					<textarea name="message" id="message"></textarea>
+					<input type="submit" name="send" id="send" value="">
+				</div>
+			</form>
+		</div>
+	</div>
+	<?php include 'footer.php';?>
+</body>
+</html>
