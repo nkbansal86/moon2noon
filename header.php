@@ -16,7 +16,7 @@
 				
 				<ul>
 					<li>
-						<a class="logo" href="blog.php">Blog</a>
+						<a class="logo" href="special.php">Weekend Special</a>
 					</li>
 					<li>
 						<a class="logo" href="contact.php">Contact</a>
@@ -28,9 +28,6 @@
 			<ul>
 				<li>
 					<a href="fresh.php">Today\'s Menu</a>
-				</li>
-				<li>
-					<a href="special.php">weekend specials</a>
 				</li>
 			</ul>
 		</div>

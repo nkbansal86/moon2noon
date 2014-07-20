@@ -221,7 +221,7 @@ img {
 	width: 340px;
 }
 #body .body div p {
-	color: #989282;
+	color: black;
 	font-family: 'DeliusSwashCaps-Regular';
 	font-size: 16px;
 	font-weight: normal;
@@ -231,7 +231,7 @@ img {
 	text-align: center;
 }
 #body .body div p a {
-	color: #989282;
+	color: black;
 	text-decoration: underline;
 }
 #body .body div p a:hover {
@@ -255,9 +255,18 @@ img {
 	margin: 0;
 	padding: 10px 0 7px;
 	text-transform: capitalize;
+	text-align: center;
+}
+#body .footer div ul li {
+	color: #32b5ba;
+    line-height: 24px;
+    margin: 0;
+    padding: 0 30px 10px;
+    text-align: left;
+
 }
 #body .footer p {
-	color: #989282;
+	color: black;
 	line-height: 24px;
 	margin: 0;
 	padding: 0;
@@ -701,6 +710,28 @@ img {
 	padding: 0;
 	text-transform: capitalize;
 }
+#body #add_menu form span {
+    clear: both;
+    color: #fcc5c9;
+    display: block;
+    font-family: 'DeliusSwashCaps-Regular';
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0 0 17px;
+    text-transform: capitalize;
+}
+#body #todays_menu form span {
+    clear: both;
+    color: #fcc5c9;
+    display: block;
+    font-family: 'DeliusSwashCaps-Regular';
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0 0 17px;
+    text-transform: capitalize;
+}
 #body #contact {
 	padding: 0 10px;
 	width: 940px;
@@ -732,7 +763,7 @@ img {
 	width: 540px;
 }
 #body #contact div .section p {
-	color: #989282;
+	color: black;
 	line-height: 24px;
 	margin: 0;
 	padding: 0;
@@ -752,7 +783,7 @@ img {
 	padding: 10px 0 0;
 }
 #body #contact div .section ul li {
-	color: #989282;
+	color: #black;
 	line-height: 24px;
 	list-style: none;
 	margin: 0;

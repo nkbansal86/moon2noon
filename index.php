@@ -13,9 +13,9 @@
 	<div id="body">
 		<div class="header">
 			<div>
-				<h1>freshly baked everyday</h1>
+				<h1>Delicious Homemade food</h1>
 				<p>
-					You can remove any link to our website from this website template, you're free to use this website template without linking back to us.
+					Nutrition balanced, exotic north-indian food delivered at your door-step right when you need it!
 				</p>
 			</div>
 			<img src="images/freshly-baked.jpg" alt="">
@@ -34,46 +34,36 @@
 		<div class="body">
 			<div>
 				<p>
-					This website template hahs been designed by <a href="http://www.freewebsitetemplates.com/">Free Website Templates</a> for you, for free. You can replace all this text with your own text.
+					Checkout out our <a href>subscription plans</a> for delivery in Indiranagar, BTM, Koramangala, Whitefield
 				</p>
 			</div>
 			<img src="images/strawberry-tart.png" alt="">
 			<div>
 				<p>
-					If you're having problems editing this website template, then don't hesitate to ask for help on the <a href="http://www.freewebsitetemplates.com/forums/">Forum</a>.
+					Subscribe for monthly plan of as low as Rs. 1000/- and 1 time delivery for just Rs. 50/-.
 				</p>
 			</div>
 		</div>
 		<div class="footer">
 			<div class="figure">
-				<div>
-					<h1><a href="special.php">weekend specials</a></h1>
-					<a href="special.php"><img src="images/weekend-specials.jpg" alt=""></a>
-				</div>
+					<div>
+					<h3>Today's Menu</h3>
+					<?php
+						include 'todays_menu.php';
+					?>
+					</div>
 			</div>
 			<div class="article">
-				<h3>blog</h3>
-				<ul>
-					<li>
-						<span><a href="blog.html">Aug 00, 2012</a> | by: <a href="blog.html">blogger</a></span>
-						<p>
-							This is just a place holder,  so you can see what the site would look like. <a href="blog.html" class="more">(more)</a>
-						</p>
-					</li>
-					<li>
-						<span><a href="blog.html">Aug 00, 2012</a> | by: <a href="blog.html">blogger</a></span>
-						<p>
-							This is just a place holder,  so you can see what the site would look like. <a href="blog.html" class="more">(more)</a>
-						</p>
-					</li>
-					<li>
-						<span><a href="blog.html">Aug 00, 2012</a> | by: <a href="blog.html">blogger</a></span>
-						<p>
-							This is just a place holder,  so you can see what the site would look like. <a href="blog.html" class="more">(more)</a>
-						</p>
-					</li>
-				</ul>
-			</div>
+				<h3>Order Now!</h3>
+				
+				<p>
+				Pick up the phone and Order Now at 9999999999!
+				First 50 orders for the day can avail 50% discount!
+				
+				</p>
+				
+			</div>	
+			
 			<div class="section">
 				<h3>store hours</h3>
 				<a href="#"><img src="images/open.jpg" alt=""></a>
