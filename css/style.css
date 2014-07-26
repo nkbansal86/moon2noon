@@ -81,7 +81,7 @@ img {
 	background: none;
 	height: auto;
 	margin: 0 auto;
-	padding: 22px 0 27px;
+	padding: 22px 0 2px;
 	text-align: center;
 	width: 960px;
 }
@@ -101,7 +101,7 @@ img {
 	text-align: center;
 	text-decoration: none;
 	text-transform: capitalize;
-	width: 220px;
+	width: 300px;
 }
 #header > div > ul li.current a {
 	background: url(../images/bg-menu.png) no-repeat right top;
@@ -282,7 +282,7 @@ img {
 	background: #543f1b;
 	border: 1px solid #876a38;
 	padding: 3px;
-	width: 372px;
+	width: 330px;
 }
 #body .footer div.figure div {
 	background: #1b1b1b;

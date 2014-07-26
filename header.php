@@ -1,5 +1,11 @@
 <?php 
-	echo '<div id="header"> 
+	$ORDER_NOW='
+<marquee behavior="scroll" direction="left">Free Delivery !! ORDER NOW @ 8861227714!!</marquee>';
+
+	
+	//'Order Now @ 8861227714';
+	?>
+	<div id="header"> 
 		<div> 
 			<div> 
 				<ul> 
@@ -16,7 +22,7 @@
 				
 				<ul>
 					<li>
-						<a class="logo" href="special.php">Weekend Special</a>
+						<a class="logo" href="subscriptions.php">Subscription Plans</a>
 					</li>
 					<li>
 						<a class="logo" href="contact.php">Contact</a>
@@ -27,9 +33,14 @@
 		<div>
 			<ul>
 				<li>
-					<a href="fresh.php">Today\'s Menu</a>
+					<a href="#"><?php echo $ORDER_NOW?></a>
+				</li>
+				<li>
+					<a href="index.php#todays_menu">Today's Menu</a>
+				</li>
+				<li>
+					<a href="#"><?php echo $ORDER_NOW?></a>
 				</li>
 			</ul>
 		</div>
-	</div>';
- ?>
+	</div>

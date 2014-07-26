@@ -15,7 +15,7 @@
 			<div>
 				<h1>Delicious Homemade food</h1>
 				<p>
-					Nutrition balanced, exotic north-indian food delivered at your door-step right when you need it!
+					Nutrition-balanced, vegetarian north-indian food delivered at your door-step right when you need it!
 				</p>
 			</div>
 			<img src="images/freshly-baked.jpg" alt="">
@@ -23,10 +23,10 @@
 				<h3>100% homemade</h3>
 				<ul>
 					<li>
-						<a href="fresh.php"> <img src="images/ham.jpg" alt=""> <span>This is just a place holder</span> </a>
+						<a href="fresh.php"> <img src="images/ham.jpg" alt=""> <span></span> </a>
 					</li>
 					<li>
-						<a href=""> <img src="images/tart.jpg" alt=""> <span>This is just a place holder</span> </a>
+						<a href=""> <img src="images/tart.jpg" alt=""> <span></span> </a>
 					</li>
 				</ul>
 			</div>
@@ -34,26 +34,69 @@
 		<div class="body">
 			<div>
 				<p>
-					Checkout out our <a href>subscription plans</a> for delivery in Indiranagar, BTM, Koramangala, Whitefield
+					We currently deliver in Marathahalli, HSR layout, Whitefield, ITPL, Electronic City, Koramangala, C V Raman Nagar.
 				</p>
 			</div>
 			<img src="images/strawberry-tart.png" alt="">
 			<div>
 				<p>
-					Subscribe for monthly plan of as low as Rs. 1000/- and 1 time delivery for just Rs. 50/-.
+					<!--?php echo $ORDER_NOW ?-->
+					Every Meal includes- </br>
+					4 Fulka, 1 dry sabji, 1 gravy, 1 Dal, Rice/Pulao, Salad seasonal, 1 Papad.
 				</p>
 			</div>
 		</div>
 		<div class="footer">
 			<div class="figure">
 					<div>
-					<h3>Today's Menu</h3>
+					<h3><a id="todays_menu">Today's Menu</h3>
 					<?php
 						include 'todays_menu.php';
 					?>
 					</div>
 			</div>
-			<div class="article">
+			
+			<div class="section">
+				<h3>store hours</h3>
+				<a href="#"><img src="images/open.jpg" alt=""></a>
+				<p>
+					<?php echo $ORDER_NOW;?>
+					Timings:</br>
+					8am - 9pm on All days
+				</p>
+			</div>
+			
+			<div class="figure">
+					<div>
+					<h3>Subscription Plans</h3>
+						<ul>
+							<li>
+							<b style="color:green">Rosy-Roti - Monthly Plan</b> </br>
+							<p style="font-size:12px;color:#32b5ba">
+								Daily Lunch OR Dinner @ Rs 1200/- </br>
+								Daily Lunch+Dinner @ Rs 2300/- </br>
+							</p>	
+							</li>
+							
+							<li>
+							<b style="color:green">Hafta-Vasooli - Weekly Plan</b> </br>
+							<p style="font-size:12px;color:#32b5ba">
+								Daily Lunch OR Dinner @ Rs 300/- </br>
+								Daily Lunch+Dinner @ Rs 550/- </br>
+							</p>	
+							</li>
+							
+							<li>
+							<b style="color:green">Dabba-aang - Weekend Special</b> </br>
+							<p style="font-size:12px;color:#32b5ba">
+								Daily Lunch OR Dinner @ Rs 80/- </br>
+								Daily Lunch+Dinner @ Rs 150/- </br>
+							</p>	
+							</li>
+						</ul>
+					</div>
+			</div>
+			<!--div class="article">
 				<h3>Order Now!</h3>
 				
 				<p>
@@ -62,15 +105,7 @@
 				
 				</p>
 				
-			</div>	
-			
-			<div class="section">
-				<h3>store hours</h3>
-				<a href="#"><img src="images/open.jpg" alt=""></a>
-				<p>
-					You can remove any link to our website from this website template, you're free to use this website template without linking back to us.
-				</p>
-			</div>
+			</div-->	
 		</div>
 	</div>
 	<?php include 'footer.php';?>
