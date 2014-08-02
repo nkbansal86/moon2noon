@@ -50,7 +50,7 @@ img {
 	height: auto;
 	margin: 0;
 	padding: 0;
-	width: 160px;
+	/*width: 160px;*/
 }
 #header div:first-child div ul li a {
 	background: none;
@@ -70,7 +70,7 @@ img {
 	color: #ff8fb4;
 }
 #header div:first-child div a#logo {
-	float: left;
+	/*float: left;*/
 	margin: 0 34px;
 }
 #header div {
@@ -89,6 +89,7 @@ img {
 	display: inline;
 	float: none;
 	margin: 0 10px;
+	padding:
 }
 #header > div > ul li a {
 	color: #989282;
@@ -101,7 +102,8 @@ img {
 	text-align: center;
 	text-decoration: none;
 	text-transform: capitalize;
-	width: 300px;
+	/*width: 200px;*/
+	padding: 20px;
 }
 #header > div > ul li.current a {
 	background: url(../images/bg-menu.png) no-repeat right top;
@@ -192,6 +194,7 @@ img {
 }
 #body .header ul li img {
 	display: block;
+	width: 260px;
 }
 #body .header ul li a:hover img {
 	opacity: 0.8;
@@ -218,7 +221,7 @@ img {
 	float: left;
 	margin: 15px 0 0;
 	padding: 18px 20px;
-	width: 340px;
+	width: 300px;
 }
 #body .body div p {
 	color: black;
@@ -241,6 +244,8 @@ img {
 	display: block;
 	float: left;
 	margin: 0 20px;
+	padding: 20px;
+	width: 150px;
 }
 #body .footer > div {
 	float: left;
@@ -256,6 +261,9 @@ img {
 	padding: 10px 0 7px;
 	text-transform: capitalize;
 	text-align: center;
+}
+#body .footer div ul {
+    padding-left: 10px;
 }
 #body .footer div ul li {
 	color: #32b5ba;
@@ -982,9 +990,26 @@ img {
 	text-align: center;
 	text-decoration: none;
 	text-transform: capitalize;
+	/*width: 300px;*/
+}
+
+.toolbar {
+	color: #FFFFFF;
+	display: inline-block;
+	font-family: 'DeliusSwashCaps-Regular';
+	font-size: 30px;
+	font-weight: normal;
+	height: 41px;
+	line-height: 41px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: capitalize;
 	width: 220px;
 }
 
+.logo  img{
+	width: 300px;
+}
 .logocaption {
     color: #32b5ba;
     line-height: 24px;

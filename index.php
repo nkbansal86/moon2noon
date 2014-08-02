@@ -18,15 +18,15 @@
 					Nutrition-balanced, vegetarian north-indian food delivered at your door-step right when you need it!
 				</p>
 			</div>
-			<img src="images/freshly-baked.jpg" alt="">
+			<img  src="images/lacha_paratha_parotta-02.jpg" alt="">
 			<div>
 				<h3>100% homemade</h3>
 				<ul>
 					<li>
-						<a href="fresh.php"> <img src="images/ham.jpg" alt=""> <span></span> </a>
+						<a href="#"> <img src="images/Thali.jpg" alt=""> <span></span> </a>
 					</li>
 					<li>
-						<a href=""> <img src="images/tart.jpg" alt=""> <span></span> </a>
+						<a href="#"> <img src="images/Dal.jpg" alt=""> <span></span> </a>
 					</li>
 				</ul>
 			</div>
@@ -37,7 +37,7 @@
 					We currently deliver in Marathahalli, HSR layout, Whitefield, ITPL, Electronic City, Koramangala, C V Raman Nagar.
 				</p>
 			</div>
-			<img src="images/strawberry-tart.png" alt="">
+			<img src="images/try_now_yellow_green.gif" alt="">
 			<div>
 				<p>
 					<!--?php echo $ORDER_NOW ?-->
@@ -66,33 +66,40 @@
 				</p>
 			</div>
 			
-			<div class="figure">
+			<div id="Subscription" class="figure">
 					<div>
 					<h3>Subscription Plans</h3>
 						<ul>
 							<li>
 							<b style="color:green">Rosy-Roti - Monthly Plan</b> </br>
 							<p style="font-size:12px;color:#32b5ba">
-								Daily Lunch OR Dinner @ Rs 1200/- </br>
-								Daily Lunch+Dinner @ Rs 2300/- </br>
+								Weekday Lunch OR Dinner @ Rs 1200/- </br>
+								Weekday Lunch+Dinner @ Rs 2300/- </br>
 							</p>	
 							</li>
 							
-							<li>
+							<!--li>
 							<b style="color:green">Hafta-Vasooli - Weekly Plan</b> </br>
 							<p style="font-size:12px;color:#32b5ba">
 								Daily Lunch OR Dinner @ Rs 300/- </br>
 								Daily Lunch+Dinner @ Rs 550/- </br>
 							</p>	
-							</li>
+							</li-->
 							
 							<li>
 							<b style="color:green">Dabba-aang - Weekend Special</b> </br>
 							<p style="font-size:12px;color:#32b5ba">
-								Daily Lunch OR Dinner @ Rs 80/- </br>
-								Daily Lunch+Dinner @ Rs 150/- </br>
-							</p>	
+								Weekend Lunch OR Dinner @ Rs 80/- </br>
+								Weekend Lunch+Dinner @ Rs 150/- </br>
+							</p>							
 							</li>
+							<li>
+							<b style="color:green">Chakh-De - Trial Offer</b> </br>
+							<p style="font-size:12px;color:#32b5ba">
+								Single Lunch OR Dinner @ Rs. 60/-
+							</p>
+							</li>
+
 						</ul>
 					</div>
 			</div>
